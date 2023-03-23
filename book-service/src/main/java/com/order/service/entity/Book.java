@@ -1,4 +1,4 @@
-package com.book.entity;
+package com.order.service.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

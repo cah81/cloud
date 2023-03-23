@@ -1,9 +1,9 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="RUN BOOK-SERVICE" type="Application" factoryName="Application">
+  <configuration default="false" name="RUN API-GATEWAY" type="Application" factoryName="Application">
     <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
     <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-    <option name="MAIN_CLASS_NAME" value="com.order.service.BookServiceApplication" />
-    <module name="book-service" />
+    <option name="MAIN_CLASS_NAME" value="com.apigateway.ApiGatewayApplication" />
+    <module name="api-gateway" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>
