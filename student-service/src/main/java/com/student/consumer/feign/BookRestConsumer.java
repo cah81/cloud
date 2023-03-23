@@ -13,8 +13,8 @@ public interface BookRestConsumer {
     @GetMapping("/book/data")
     public String getBookData();
 
-    @GetMapping("/book/{id}")
-    public Book getBookById(@PathVariable Integer id);
+    @GetMapping("book/book/{bookId}")
+    public Book getBookById(@PathVariable Integer bookId);
 
     @GetMapping("book/all")
     public List<Book> getAllBooks();
